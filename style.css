@@ -239,6 +239,8 @@ body {
     transition: var(--transition);
 }
 
+/* Section Four */
+
 .section-four {
     height: auto;
     width: auto;
@@ -301,6 +303,88 @@ body {
 .section-four .sub-container-four button:hover {
     transform: var(--transform);
     transition: var(--transition);
+}
+
+/* Section Five */
+
+.section-five {
+    height: auto;
+    background-color: #F9F9F9;
+    padding: 30px 60px;
+}
+
+.section-five .sub-section-five {
+    width: 100%;
+    height: 100%;
+    padding: 50px 0px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.section-five .sub-section-five .section-five__content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.section-five .sub-section-five .section-five__content p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.section-five .sub-section-five .section-five__content #input {
+    position: relative;
+    width: 500px;
+    height: 60px;
+    display: block;
+    margin: auto;
+}
+
+.section-five .sub-section-five .section-five__content input::placeholder {
+    font-size: 1rem;
+}
+
+.section-five .sub-section-five .section-five__content #input #input-label {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2A254B;
+    color: #fff;
+}
+
+.section-five .sub-section-five .section-five__content #input #input-label input {
+    width: 80%;
+    height: 100%;
+    padding: 0px 25px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 2px #a3a3a3;
+}
+
+.section-five .sub-section-five .section-five__content #input #input-label input:focus {
+    box-shadow: 0px 0px 2px #000;
+}
+
+.section-five .sub-section-five .section-five__content #input #input-label label {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.section-five .sub-section-five .section-five__content #input #input-label label:hover {
+    background-color: #1c1352;
+    transition: all 0.3s ease;
 }
 
 @media (max-width: 1320px) {
@@ -393,6 +477,31 @@ body {
 
     .section-four .sub-container-four button {
         font-size: 0.9rem;
+    }
+
+    .section-five .sub-section-five .section-five__content h1 {
+        font-size: 2rem;
+    }
+    
+    .section-five .sub-section-five .section-five__content p {
+        font-size: 0.8rem;
+    }
+
+    .section-five .sub-section-five .section-five__content #input {
+        width: 350px;
+        height: 40px;
+    }
+
+    .section-five .sub-section-five .section-five__content #input #input-label input {
+        padding: 0px 15px;
+    }
+    
+    .section-five .sub-section-five .section-five__content input::placeholder {
+        font-size: 0.8rem;
+    }
+    
+    .section-five .sub-section-five .section-five__content #input #input-label label {
+        font-size: 0.8rem;
     }
 }
 
@@ -493,6 +602,35 @@ body {
 
     .section-four .sub-container-four button {
         font-size: 0.8rem;
+    }
+
+    .section-five {
+        margin-top: 20px;
+    }
+
+    .section-five .sub-section-five .section-five__content h1 {
+        font-size: 1.7rem;
+    }
+    
+    .section-five .sub-section-five .section-five__content p {
+        font-size: 0.6rem;
+    }
+
+    .section-five .sub-section-five .section-five__content #input {
+        width: 250px;
+        height: 20px;
+    }
+
+    .section-five .sub-section-five .section-five__content #input #input-label input {
+        padding: 0px 10px;
+    }
+    
+    .section-five .sub-section-five .section-five__content input::placeholder {
+        font-size: 0.6rem;
+    }
+    
+    .section-five .sub-section-five .section-five__content #input #input-label label {
+        font-size: 0.7rem;
     }
 }
 
@@ -597,6 +735,37 @@ body {
     .section-four .sub-container-four button {
         font-size: 0.8rem;
     }
+
+    .section-five {
+        padding: 15px 30px;
+    }
+
+    .section-five .sub-section-five .section-five__content h1 {
+        font-size: 1.4rem;
+        margin-bottom: 10px;
+    }
+    
+    .section-five .sub-section-five .section-five__content p {
+        font-size: 0.5rem;
+        margin-bottom: 10px;
+    }
+
+    .section-five .sub-section-five .section-five__content #input {
+        width: 200px;
+        height: 20px;
+    }
+
+    .section-five .sub-section-five .section-five__content #input #input-label input {
+        padding: 0px 8px;
+    }
+    
+    .section-five .sub-section-five .section-five__content input::placeholder {
+        font-size: 0.5rem;
+    }
+    
+    .section-five .sub-section-five .section-five__content #input #input-label label {
+        font-size: 0.5rem;
+    }
 }
 
 @media (max-width: 360px) {
@@ -672,5 +841,21 @@ body {
     .section-four .sub-container-four button {
         padding: 12px 20px;
         font-size: 0.8rem
+    }
+
+    .section-five {
+        padding: 6px 0px;
+    }
+
+    .section-five .sub-section-five .section-five__content h1 {
+        font-size: 1.2rem;
+    }
+
+    .section-five .sub-section-five .section-five__content #input {
+        width: 170px;
+    }
+    
+    .section-five .sub-section-five .section-five__content #input #input-label label {
+        font-size: 0.4rem;
     }
 }
